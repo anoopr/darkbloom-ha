@@ -5,7 +5,7 @@ All money values are micro-USD (int) unless the key name says _usd.
 """
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 
 WINDOW_HOURS = (1, 2, 3, 4, 6, 12, 24)
 ROW_HOURS = 26      # keep per-row data long enough to span the 24h window
