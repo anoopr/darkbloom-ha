@@ -1,0 +1,21 @@
+{
+  "title": "Darkbloom",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Darkbloom",
+        "description": "Paste your Darkbloom API key (`sk-db-...`). Find it in your Darkbloom console account settings.",
+        "data": {
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid API key.",
+      "cannot_connect": "Failed to connect to Darkbloom."
+    },
+    "abort": {
+      "already_configured": "This Darkbloom account is already configured."
+    }
+  }
+}
